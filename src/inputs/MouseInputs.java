@@ -1,4 +1,3 @@
-
 package inputs;
 
 import java.awt.event.MouseEvent;

@@ -1,4 +1,3 @@
-
 package main;
 
 import inputs.KeyboardInputs;
@@ -49,13 +48,13 @@ public class GamePanel extends JPanel { // *
         if(xDelta > 400 || xDelta < 0) {
             xDir *= -1;
             color = getRandomColor();
-        };
+        }
         
         yDelta += yDir;
         if(yDelta > 400 || yDelta < 0) {
             yDir *= -1;
             color = getRandomColor();
-        };
+        }
     }
 
     private Color getRandomColor() {
